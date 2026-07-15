@@ -60,5 +60,11 @@ static belog to class means jaha vo class use vaa same rahega vo static object m
  so yaha dekh jaise class ke andar if ek class toh usko tujhe static if ni maan aise hi static ni test to error hai error even if Test a =new Test() kar dega tab bhi as dekh test upper inner class oe depndent and ststic bolta ki mujhe pura logical way chaiye but jab tu staic bana deta toh fir tu usse main wale static mein acess kar sakta and yaha pe kunal and    rahul alag bante ab tu puchega kyon test statsic toh fir toh aisa ni hona chaiye tha but main bhi static islliye ban jata as tu naya object bana raha static means ye yaad ki apni class se independent ab vo uss class ka hi object hai class se jud gaya direct and main
 
 5. outer class static ni ho sakti  as static ko chaiye ek parent jispe vo chipak jaaye
+Araay.toStrig toh ye Array name ke class se to string wala method call kar deta hai simple as simple
 
-Araay.toStrig toh ye Array name ke class se to string wala method call kar deta hai simple as simple 
+
+
+
+# TO string
+<img width="380" height="331" alt="image" src="https://github.com/user-attachments/assets/ee7f941f-6ebe-4a66-96fd-565a9aa74aae" />
+jaise yaha dekh upa maine class ko print karna chah toh piche println ne dekha ki iss class mein tostring hai kya if yes uss chala de if ni toh uss class ka name and hex value priint kar deti hai so its just funct class ka combination
