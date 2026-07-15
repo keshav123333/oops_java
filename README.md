@@ -68,3 +68,14 @@ Araay.toStrig toh ye Array name ke class se to string wala method call kar deta 
 # TO string
 <img width="380" height="331" alt="image" src="https://github.com/user-attachments/assets/ee7f941f-6ebe-4a66-96fd-565a9aa74aae" />
 jaise yaha dekh upa maine class ko print karna chah toh piche println ne dekha ki iss class mein tostring hai kya if yes uss chala de if ni toh uss class ka name and hex value priint kar deti hai so its just funct class ka combination
+
+
+
+# singleton
+
+means sirf ek variable create akrta hai tu ya ek object create ho sakti kisis class ki and baaki object same ushi class ko call
+
+<img width="483" height="453" alt="image" src="https://github.com/user-attachments/assets/783c624a-8dcf-45cc-9ecc-e2762de4e74a" />
+
+ab tu alag alg bana ke bhi karega tab bhi vo sab same class ko hi refer karenge an return
+<img width="514" height="294" alt="image" src="https://github.com/user-attachments/assets/200fd9bb-21d4-4f2a-b2ab-0db32c8e8960" />
