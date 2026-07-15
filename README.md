@@ -30,3 +30,16 @@ when array pass in void that array ka bhi pass by value par araay arr jab toh vo
 
  <img width="387" height="88" alt="image" src="https://github.com/user-attachments/assets/bdd11aef-c4ef-4f5c-a39b-1c21c7a86ebe" />
 ye finalize method jaise hi koi class chalti tab last m chalt so garbage collector jaise wrlk means maan le bahut sari func var ban gaye toh dhere dhere if space ni bachi but naye funct var bante rahe toh ye purane wale unko collect remove karta rahega like tune bahut sari tree class ke obj ab bante ja rahe toh space limited toh purane remove kar dega on own 
+
+# package 
+means folder ke adar msubfolder 
+com.keshav.a so com.keshav ke andar a folder and com.keshav.b bhi toh b folder keshav ke andar and sun tu video oops 2 suru ka part dekh le 
+
+# tu import com.keshav.student.Student(ye student vo class).message -> ye message ek funct uss class m
+
+
+# static 
+isme like maine maanle ek pakage keshav uske andar a.java mein banaya 
+ <img width="377" height="75" alt="image" src="https://github.com/user-attachments/assets/72c5e726-48fa-4697-adc0-02fcc78c9832" />
+aise same folder ke andar a b so ek dusre ke public func ko acess kar sakte ya static so even b mein static +1 toh chahe kitne bhi instance bana le a a1 = new a()
+then a a2=new a()  ye dono same a class ko like point but sono alag obj but ek baat sun a mein jo static vo dono ke liye same if ek usse change toh baki m bhi change hoga
