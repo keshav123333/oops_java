@@ -1,4 +1,7 @@
+object means maan ek class Student {}   ab iska Student s1=new ...  toh s1 object 
 # contructor 
+
+
 Student () {
         // this is how you call a constructor from another constructor
         // internally: new Student (13, "default person", 100.0f);
@@ -43,3 +46,19 @@ isme like maine maanle ek pakage keshav uske andar a.java mein banaya
  <img width="377" height="75" alt="image" src="https://github.com/user-attachments/assets/72c5e726-48fa-4697-adc0-02fcc78c9832" />
 aise same folder ke andar a b so ek dusre ke public func ko acess kar sakte ya static so even b mein static +1 toh chahe kitne bhi instance bana le a a1 = new a()
 then a a2=new a()  ye dono same a class ko like point but sono alag obj but ek baat sun a mein jo static vo dono ke liye same if ek usse change toh baki m bhi change hoga
+
+<img width="356" height="167" alt="image" src="https://github.com/user-attachments/assets/b920cf32-14eb-4ce0-bf2d-bca0415ed34b" />
+if aise ek banaya tune toh b mein kahi bhi tu direct a.a like ke acess koi zrurtat ni new a() koi zarurat ni class ka obj banne ki direct acess kar le static is free 
+
+Public static void main(s).. ye static isliye ki ye allow karta ki uss class ko run kar sake bina uski object banye 
+static belog to class means jaha vo class use vaa same rahega vo static object means jab tu same class ka use karke diff object banta like student 1 2 whatever
+
+ static mein non static ko call karne ke liye object create karna padgea
+ 3. and maan ststic folder uske andar this use ni kar sakta as static means class ka hai this for object this kayde se uss object name se replace
+
+ 4. <img width="430" height="382" alt="image" src="https://github.com/user-attachments/assets/4f66b3f4-63fd-4fef-a01f-feccaa01b8e8" />
+ so yaha dekh jaise class ke andar if ek class toh usko tujhe static if ni maan aise hi static ni test to error hai error even if Test a =new Test() kar dega tab bhi as dekh test upper inner class oe depndent and ststic bolta ki mujhe pura logical way chaiye but jab tu staic bana deta toh fir tu usse main wale static mein acess kar sakta and yaha pe kunal and    rahul alag bante ab tu puchega kyon test statsic toh fir toh aisa ni hona chaiye tha but main bhi static islliye ban jata as tu naya object bana raha static means ye yaad ki apni class se independent ab vo uss class ka hi object hai class se jud gaya direct and main
+
+5. outer class static ni ho sakti  as static ko chaiye ek parent jispe vo chipak jaaye
+
+Araay.toStrig toh ye Array name ke class se to string wala method call kar deta hai simple as simple 
