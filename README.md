@@ -85,8 +85,65 @@ ab tu alag alg bana ke bhi karega tab bhi vo sab same class ko hi refer karenge 
 
 # Inheritance 
 
+impt jab bhi tu parent ko like ectend sme ek default contructor hona chaye 
+
+                public  class b {
+                   int l;
+                   int b;
+                   int w;
+                   public  b(){
+                       
+                   }
+                   public  b(int l,int b,int w){
+                       this.w=w;
+                       this.l=l;
+                       this.b=b;
+                   }
+                        }
+                        
+                        class c extends  b{
+                    
+                        }
+
 <img width="667" height="712" alt="image" src="https://github.com/user-attachments/assets/be8f6baf-05dc-4b37-915f-35a63e53397d" />
 Ye niche wala super apne parents ke contructor ko call kar dega jaise yaha pe box ke 3 double wala constructor run hojayega 
 
 <img width="952" height="425" alt="image" src="https://github.com/user-attachments/assets/38652075-00d9-4cf6-97e6-95817f23e4b9" />
 
+
+
+Yaha pe dekh jaise Box parent and box wiegth se intitlise so kar sakta as boxwieght mein parent ke sare element but boxwoeght mein ek var weight 
+jab tu usse box5.weight to error as kitne element tu acess ye tu kisse intitlize usse tai hota yaad rakhna \
+And boxwieght object new box ()  karke ni intilaize as child parent ke object se intilize ni ho sakta 
+<img width="826" height="139" alt="image" src="https://github.com/user-attachments/assets/b893bd6b-9cd0-43b2-bbef-f375cd2bc0b4" />
+
+
+Ab ek cheez samjha this.w se tu parent ke w ko acess kar sakta haui 
+so like in this this.w se parent ke w ko aacess 
+
+```` java
+public  class b {
+   int l;
+   int b;
+   int w;
+   public  b(){
+
+   }
+   public  b(int l,int b,int w){
+       this.w=w;
+       this.l=l;
+       this.b=b;
+   }
+        }
+
+        class c extends  b{
+            int weight;
+
+            public c(){
+                System.out.println(this.w);
+            }
+        }
+````
+so jaise above dekh this.w se acess but ise acess ni karte 
+super.w se bhi same weight but super bata ki parent ko acess for ex w parent m bhi and hild mein bhi w so now this apne andar wale means child wale class ka w layega so
+super() for super ke constructor ko acess and super.w ya super.fucntion name se parent 
