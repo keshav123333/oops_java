@@ -81,3 +81,12 @@ means sirf ek variable create akrta hai tu ya ek object create ho sakti kisis cl
 
 ab tu alag alg bana ke bhi karega tab bhi vo sab same class ko hi refer karenge an return
 <img width="514" height="294" alt="image" src="https://github.com/user-attachments/assets/200fd9bb-21d4-4f2a-b2ab-0db32c8e8960" />
+
+
+# Inheritance 
+
+<img width="667" height="712" alt="image" src="https://github.com/user-attachments/assets/be8f6baf-05dc-4b37-915f-35a63e53397d" />
+Ye niche wala super apne parents ke contructor ko call kar dega jaise yaha pe box ke 3 double wala constructor run hojayega 
+
+<img width="952" height="425" alt="image" src="https://github.com/user-attachments/assets/38652075-00d9-4cf6-97e6-95817f23e4b9" />
+
