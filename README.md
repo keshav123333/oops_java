@@ -1,5 +1,7 @@
 object means maan ek class Student {}   ab iska Student s1=new ...  toh s1 object 
 # contructor 
+<img width="667" height="712" alt="image" src="https://github.com/user-attachments/assets/be8f6baf-05dc-4b37-915f-35a63e53397d" />
+yaha upar dekh conructor mein like kitne bhi daal sakta so maan u bina uske ya kisis value ki intialise toh pehle wala constructior run hoga aise 
 
 
 Student () {
