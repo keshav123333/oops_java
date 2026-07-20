@@ -222,3 +222,7 @@ public  class b extends a{
 ````
 2. Yaha pe dekh Kayde se main j a type ka toh usse iam parent but yaha output iam child why kyonki jab tune b() se inilize toh if hello parent mei ni hota j.hello error paka deta but ab a mein bhi hello and jab tune b se intitlize toh a wala hello overid ehoke b wala hello bana gaya if pure a wala hello toh a() se intilize kar so ye yaad rakhna
 3. kayde se ab bhi j se sirf vo hi elemnt  a j=new b(); acess jo a mein hai bas b se intilize ki vaah se a wale same name wali func overide ho jayenge if child ne overid kiya hai toh
+
+
+ek aur cheez jaise tu class main {} aise bina etend bhi jab  kata toh tostring ya aur sari func overide kaise ek baat dhyadn rakh bydefault java mein object class ko  sari class extend karti hai
+<img width="334" height="144" alt="image" src="https://github.com/user-attachments/assets/ca350662-61f6-451b-8651-db57044a9530" />
