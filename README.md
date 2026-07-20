@@ -152,3 +152,14 @@ super() for super ke constructor ko acess and super.w ya super.fucntion name se 
 <img width="577" height="416" alt="image" src="https://github.com/user-attachments/assets/2b6e4fc9-c2dc-403d-9a64-3a07b92e8ac6" />
 
 <img width="361" height="223" alt="image" src="https://github.com/user-attachments/assets/a93687ac-d56d-47bd-ab43-1893b9c13697" />
+
+
+3. You can checkout video like multihertance mein super keyword kaise use bataya hai dekh sakta hai
+
+**Types of inheritance**
+1. single
+2. multitype mein ek ke niche ek
+3. multiple inheritance is not in java like dk child multiple parent ko extend
+4. heirachial inheritance
+
+# polyphorphism
