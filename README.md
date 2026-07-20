@@ -172,6 +172,53 @@ if aage Shape s=new SHape toh s.area() toh shape ka area hoga print same if circ
 2. But catch if maan le SHape s=new Cricle()  s.area() circle ka area function print karega ye poly mor[phism ka ek point like jiss function se vo
 
 ## types of polymorphism
-1. compile time /static : yaha same name hota hai but types of parameters,no. of parameters , return type differnt ho sakta
+1. compile time /static : overloading -> yaha same name hota hai but types of parameters,no. of parameters , return type differnt ho sakta
 ye cheez constructor and function dono pe lagta
-2.     
+2. runtime : overridding -> yaha pe parent ke kisi func ya element ko overide karte
+
+````java
+package com.keshav.hello;
+
+
+public class a {
+    int wr=19;
+    static class test{
+        String a="keshav";
+    }
+    public String hello(){
+        return "iam parent";
+    }
+}
+
+
+public  class b extends a{
+   int l;
+   int b;
+   int w;
+   public  b(){
+
+   }
+   public  b(int l,int b,int w){
+       this.w=w;
+       this.l=l;
+       this.b=b;
+   }
+   public  String hello(){
+        return "iam child";
+   }
+
+
+        }
+
+
+        class main{
+            public static void main(String[] args) {
+                a j=new b();
+                System.out.println(j.hello());
+            }
+        }
+// output-> Iam child
+
+````
+2. Yaha pe dekh Kayde se main j a type ka toh usse iam parent but yaha output iam child why kyonki jab tune b() se inilize toh if hello parent mei ni hota j.hello error paka deta but ab a mein bhi hello and jab tune b se intitlize toh a wala hello overid ehoke b wala hello bana gaya if pure a wala hello toh a() se intilize kar so ye yaad rakhna
+3. kayde se ab bhi j se sirf vo hi elemnt  a j=new b(); acess jo a mein hai bas b se intilize ki vaah se a wale same name wali func overide ho jayenge if child ne overid kiya hai toh
