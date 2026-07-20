@@ -163,3 +163,15 @@ super() for super ke constructor ko acess and super.w ya super.fucntion name se 
 4. heirachial inheritance
 
 # polyphorphism
+
+many function or feature of same name 
+
+1. jaise ye dekh shpe sabse upar parent and circle and triangle uske child so parent ke pas bhi apna area and dono child ke pas bhi so 
+if aage Shape s=new SHape toh s.area() toh shape ka area hoga print same if circle ke constructor se karnege toh child ka hoga 
+<img width="356" height="191" alt="image" src="https://github.com/user-attachments/assets/501461ab-592e-4f91-9a76-0c1e1795def3" />
+2. But catch if maan le SHape s=new Cricle()  s.area() circle ka area function print karega ye poly mor[phism ka ek point like jiss function se vo
+
+## types of polymorphism
+1. compile time /static : yaha same name hota hai but types of parameters,no. of parameters , return type differnt ho sakta
+ye cheez constructor and function dono pe lagta
+2.     
