@@ -147,3 +147,8 @@ public  class b {
 so jaise above dekh this.w se acess but ise acess ni karte 
 super.w se bhi same weight but super bata ki parent ko acess for ex w parent m bhi and hild mein bhi w so now this apne andar wale means child wale class ka w layega so
 super() for super ke constructor ko acess and super.w ya super.fucntion name se parent 
+
+2. ye niche dekh boxweight mein ek constructor jo like boxwieght se intitlise toh vo box wieght box type ke contructor ko call with same box weight bhej ke so ye aisa kuch Box b=new BoxWoeght jo sahi as dekh boxwieght ke pas sab kuch jo box type ke pas so ye sahi hai 
+<img width="577" height="416" alt="image" src="https://github.com/user-attachments/assets/2b6e4fc9-c2dc-403d-9a64-3a07b92e8ac6" />
+
+<img width="361" height="223" alt="image" src="https://github.com/user-attachments/assets/a93687ac-d56d-47bd-ab43-1893b9c13697" />
