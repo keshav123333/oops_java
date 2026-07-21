@@ -226,3 +226,72 @@ public  class b extends a{
 
 ek aur cheez jaise tu class main {} aise bina etend bhi jab  kata toh tostring ya aur sari func overide kaise ek baat dhyadn rakh bydefault java mein object class ko  sari class extend karti hai
 <img width="334" height="144" alt="image" src="https://github.com/user-attachments/assets/ca350662-61f6-451b-8651-db57044a9530" />
+
+
+# Abstract 
+```java
+package com.keshav2.p;
+
+import com.keshav.hello.a;
+
+public abstract  class hello {
+    public abstract  void hello();
+public   abstract  String peop();
+}
+
+class main extends  hello{
+
+    public main(){}
+    
+    int p(){
+        return 1;
+    }
+    
+    @Override
+    public void hello() {
+        
+    }
+
+    @Override
+    public String peop() {
+        return "";
+    }
+}
+```
+you can also like create abstract class constructor bas tujhe uss constructor ko jisme extend vaha pe like call karna padega 
+```java
+public abstract  class hello {
+    int age;
+    public hello(int age){
+        this.age=age;
+    }
+    public abstract  void hello();
+public   abstract  String peop();
+}
+
+class main extends  hello{
+
+    public main(){
+        super(12);
+    }
+
+    int p(){
+        return 1;
+    }
+
+    @Override
+    public void hello() {
+
+    }
+
+    @Override
+    public String peop() {
+        return "";
+    }
+
+    public static void main(String[] args) {
+        main a=new main();
+        System.out.println(a.age);
+    }
+}
+```
