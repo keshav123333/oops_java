@@ -260,7 +260,7 @@ class main extends  hello{
 ```
 you can also like create abstract class constructor bas tujhe uss constructor ko jisme extend vaha pe like call karna padega 
 ```java
-public abstract  class hello {
+public sj abstract  class hello {
     int age;
     public hello(int age){
         this.age=age;
@@ -295,3 +295,18 @@ class main extends  hello{
     }
 }
 ```
+
+
+# Interface 
+
+<img width="281" height="135" alt="image" src="https://github.com/user-attachments/assets/b0738eca-c347-439e-a167-cbac458947b7" />
+ye niche wali photo mein dekh isme like do interface implement kar sakte hai 
+<img width="596" height="588" alt="image" src="https://github.com/user-attachments/assets/0a62248c-ee9e-463c-9e4b-f6a456ddd755" />
+Engine e=new Car() 
+so Engine interface  ke andar jo func hai vo sare tu kar sakta hai as ovveride  kar deta new car engine wale func ko  and e.funcname se tu unhe call kar sakta 
+and Car e=new Car() e. se tu car ke andar ke sare func ko like acess 
+
+oop[s a 5 lecture dekh like usme pehel car ka interface then electric car power car do class jo iss interface ko implement and music player class music interface ko implement
+and in sab ko ikhta karke class  nice car {
+
+}
